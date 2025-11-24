@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav>
+        <div class="left_nav">
+            <a href="/">Batuhan Şahin</a>
+        </div>
+
+        <div class="right_nav">
+            <a href="https://www.instagram.com/groghound/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <a href="mailto:250401010@ostimteknik.edu.tr">
+                <i class="fa-regular fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="text">
+                <h2>Selam, Ben Batuhan 👋</h2>
+                <p>Ostim Teknik Üniversitesi'nde Bilişim Güvenliği Teknolojisi bölümü öğrencisiyim. Web geliştirme öğreniyorum ve full-stack web geliştirici olma 
+                    yolunda ilerliyorum. Araştırmayı, sorun çözmeyi severim ve insanlarla iletişimim iyidir. Yazılım dünyasına web geliştirme ile adım atmış 
+                    olsam da gelecekte oyun geliştirme alanında uzmanlaşmayı hedefliyorum. Boş zamanlarımda gitar çalar, müzikle ilgilenirim ve video oyunlar 
+                    oynamayı da severim. E-mail ve sosyal medya hesaplarım üzerinden benimle iletişime geçebilirsin. 
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Yeteneklerim</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>İletişim</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="./assets/headshot.png" alt="kendi görselim">
+            </div>
+
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Yeteneklerim</h2>
+            <div class="text">
+                <p>
+                    Yeni başladığım web geliştirme konusunda Html ve Css dillerine hakimim, şu anda da Javascript öğreniyorum. Geçmişten gelen temel seviye python 
+                    bilgim de var. Her geçen gün yeteneklerime bir yenisini eklemeyi hedefliyorum.
+                </p>
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="./assets/html-logo.png" alt="html logo">
+                    <span>Html</span>
+                </div>
+                <div class="cell">
+                    <img src="./assets/css-logo.png" alt="css logo">
+                    <span>Css</span>
+                </div>
+                <div class="cell">
+                    <img src="./assets/python-logo.png" alt="python logo">
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>İletişim</h2>
+            <div class="group">
+                <div class="text">
+                    <p>
+                        Öneri, şikayet veya teklifleriniz için bana e-mail yoluyla ulaşabilirsiniz!
+                    </p>
+                </div>
+                <form>
+                    <label for="name">İsim</label>
+                    <input type="text" id="name">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+
+                    <label for="message">İçerik</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <a href="mailto:250401010@ostimteknik.edu.tr" class="mail-button">
+                    Gönder
+                    </a>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
